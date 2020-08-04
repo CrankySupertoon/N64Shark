@@ -33,4 +33,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: N64Shark-win32
-        path: D:\a\N64Shark\N64Shark\Binary\x64
+        path: D:\a\N64Shark\N64Shark\bin\Release\
