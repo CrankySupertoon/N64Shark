@@ -28,8 +28,7 @@ jobs:
         vs-version: '16.6.2'
     # Run MSBuild
     - name: Build Solution
-      run: msbuild "D:\a\N64Shark\N64Shark\N64Shark.sln" /verbosity:minimal /property:Configuration=Release  /property:Platform=Any CPU
-    # Upload Artifact
+      run: msbuild "D:\a\N64Shark\N64Shark\N64Shark.sln" /verbosity:minimal /property:Configuration=Release
     - name: Upload Build Artifact
       uses: actions/upload-artifact@v2
       with:
